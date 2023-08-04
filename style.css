@@ -1,0 +1,74 @@
+body {
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#main {
+    background-color: white;
+    margin: 120px; 150px;
+    height: 400px;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 5px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    background-image: url(man\ icon.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+input[type=email] {
+    background-image: url(email\ icon.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left:30px;
+}
+
+input[type=password] {
+    background-image: url(key\ icon.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left:30px;
+}
+
+input{
+    font-size: 1.30em;
+}
+
+input:hover{
+    border: 3px solid black;
+}
+
+select {
+    width: 290px;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+
+select:hover{
+    border: 3px solid black;
+}
+
+button {
+    background-color: rgb(4, 4, 82);
+    width: 290px;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    border: 3px solid black;
+}
